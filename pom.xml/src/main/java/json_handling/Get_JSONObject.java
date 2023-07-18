@@ -1,4 +1,4 @@
-package quebec_election.json_handling;
+package json_handling;
 
 import java.io.File;
 import java.io.FileNotFoundException;

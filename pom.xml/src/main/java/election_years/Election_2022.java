@@ -1,7 +1,7 @@
 package election_years;
 
 import election_objects.Quebec;
-import quebec_election.json_handling.Get_JSONObject;
+import json_handling.Get_JSONObject;
 
 public class Election_2022 extends Election_Year
 {

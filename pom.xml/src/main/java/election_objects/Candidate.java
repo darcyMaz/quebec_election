@@ -17,4 +17,10 @@ public class Candidate
 	public int getPartyNumber() { return jsonObject.getInt("numeroPartiPolitique"); }
 	public int getVoteTotal() { return jsonObject.getInt("nbVoteTotal"); }
 	
+	@Override
+	public String toString()
+	{
+		return getName() + " "+ getPartyAbreviation();
+	}
+	
 }

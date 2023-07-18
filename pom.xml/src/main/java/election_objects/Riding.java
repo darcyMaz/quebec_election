@@ -53,4 +53,10 @@ public class Riding
 
 	public Collection<Candidate> getCandidates() 
 		{ return candidates.values(); }
+	
+	@Override
+	public String toString()
+	{
+		return getRidingName() + " (" + getRidingNumber() + ")";
+	}
 }

@@ -1,10 +1,25 @@
 package app;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
 import election_objects.Quebec;
 import election_years.Election_2022;
-import interpret_results.CoalitionBuilding;
 import interpret_results.FPP_Results;
+import interpret_results.coalition_building.Coalition;
+//import interpret_results.coalition_building.CoalitionBuilding;
+import interpret_results.coalition_building.CoalitionFiltering;
+import interpret_results.coalition_building.CoalitionMain;
 
+/**
+ * App runs this project and returns the result of a given Quebec election as well as the coalitions that could be created by losing parties.
+ * This information is returned in the form of a single JSONObject which can then be turned into a JSON file.
+ * 
+ * 
+ * @author Darcy Mazloum
+ *
+ */
 public class App 
 {
 	public static void main(String[] args)
@@ -55,22 +70,46 @@ public class App
 		*/
 		
 		Election_2022 election2022 = new Election_2022( "src/main/resources/resultats.json" );
-		//System.out.println( election2022.getElectionObject() + "" + election2022.getElectionObject().getNumOfRidings() );
-		
-		// I want to go thru each riding and look at results.
-		// Then I want to go thru each riding and do some math. What coalitions can be made to beat a CAQ winner?
-		// yes, specifically a CAQ winner. ignore any ridings where a winner got >50%.
-		// What coalitions are possible let's print them all out for each riding.
-		
 		Quebec election_obj = election2022.getElectionObject();
-		FPP_Results results = new FPP_Results(election_obj);
-		System.out.println( results.getResults() );
 		
-		System.out.println( CoalitionBuilding.makeCoalition(election_obj) );
+		// FPP_Results results = new FPP_Results(election_obj);
+		// results.getJSONObjectResult();
 		
-		/* 
-		election_obj.forEach( (k,v) -> 
-			); // return results to start
-		*/
+		//System.out.println( results.getResults() + "\n");
+		
+		ArrayList<String> coalitionParties = new ArrayList<>();
+		coalitionParties.add("P.L.Q./Q.L.P.");
+		// coalitionParties.add("P.C.Q-E.E.D.");
+		coalitionParties.add("Q.S.");
+		coalitionParties.add("P.Q.");
+		
+		String coalitionStr = CoalitionMain.coalitionsAsString(election_obj, coalitionParties);
+		System.out.println(coalitionStr);
+		
+		/*
+			P.Li.Q.
+			P.V.Q./G.P.Q.
+			P.A.P.E.
+			P.C.Q./C.P.Q
+			B.M.-E.B.H.
+			D.D.
+			P.Cu.Q.
+			P.H.Q.
+			Ind.
+			P51
+			P.M.L.Q.
+			A.F.C.
+			P.L.Q./Q.L.P.
+			E.A.
+			C.Q.
+			P.N.
+			C.A.Q.-E.F.L.
+			Q.S.
+			U.F.F.
+			P.Q.
+			U.N.
+			P.C.Q-E.E.D.
+		 */
+		
 	}
 }
