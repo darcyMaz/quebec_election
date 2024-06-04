@@ -10,7 +10,7 @@ import org.json.JSONObject;
 /**
  * Function object where execute(String filename) returns the JSONObject from a JSON file.
  * 
- * @author 15148
+ * @author Darcy Mazloum
  *
  */
 public class Get_JSONObject 

@@ -1,11 +1,8 @@
 package interpret_results.coalition_building;
 
 import java.util.List;
-
 import org.json.JSONObject;
-
 import java.util.ArrayList;
-
 import election_objects.Quebec;
 
 public class CoalitionMain 

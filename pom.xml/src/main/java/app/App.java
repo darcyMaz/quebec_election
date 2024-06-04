@@ -69,23 +69,23 @@ public class App
 		}
 		*/
 		
-		Election_2022 election2022 = new Election_2022( "src/main/resources/resultats.json" );
+		Election_2022 election2022 = new Election_2022( "src//main//resources//resultats.json" );
 		Quebec election_obj = election2022.getElectionObject();
 		
-		// FPP_Results results = new FPP_Results(election_obj);
-		// results.getJSONObjectResult();
+
+		FPP_Results results = new FPP_Results(election_obj);
+		System.out.println( results.toString() );
 		
-		//System.out.println( results.getResults() + "\n");
-		
+		/* 
 		ArrayList<String> coalitionParties = new ArrayList<>();
 		coalitionParties.add("P.L.Q./Q.L.P.");
-		// coalitionParties.add("P.C.Q-E.E.D.");
+		coalitionParties.add("P.C.Q-E.E.D.");
 		coalitionParties.add("Q.S.");
 		coalitionParties.add("P.Q.");
 		
 		String coalitionStr = CoalitionMain.coalitionsAsString(election_obj, coalitionParties);
 		System.out.println(coalitionStr);
-		
+		*/
 		/*
 			P.Li.Q.
 			P.V.Q./G.P.Q.

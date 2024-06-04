@@ -4,7 +4,7 @@ import org.json.JSONObject;
 
 /**
  * Object representing a political party in a Quebec election.
- * @author 15148
+ * @author Darcy Mazloum
  *
  */
 public class Party 
