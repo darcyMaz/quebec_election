@@ -1,0 +1,13 @@
+election_objects\Riding.class
+election_objects\Party.class
+interpret_results\coalition_building\CoalitionMain.class
+election_years\Election_2022.class
+interpret_results\coalition_building\CoalitionBuilding.class
+election_objects\Quebec.class
+interpret_results\coalition_building\CoalitionFiltering.class
+interpret_results\FPP_Results.class
+json_handling\Get_JSONObject.class
+app\App.class
+election_objects\Candidate.class
+interpret_results\coalition_building\Coalition.class
+election_years\Election_Year.class

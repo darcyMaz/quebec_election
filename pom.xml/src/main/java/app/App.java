@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import election_objects.Quebec;
+import election_objects.*;
 import election_years.Election_2022;
 import interpret_results.FPP_Results;
 import interpret_results.coalition_building.Coalition;
@@ -69,13 +69,23 @@ public class App
 		}
 		*/
 		
-		Election_2022 election2022 = new Election_2022( "src//main//resources//resultats.json" );
+		Election_2022 election2022 = new Election_2022( "C:\\Users\\damaz\\OneDrive\\Desktop\\Local Projects\\quebec_election\\pom.xml\\src\\main\\resources\\resultats.json");
+			// "src\\main\\resources\\resultats.json" );
 		Quebec election_obj = election2022.getElectionObject();
 		
 
 		FPP_Results results = new FPP_Results(election_obj);
-		System.out.println( results.toString() );
+		// System.out.println( results.toString() );
 		
+		// System.out.println( results.getJSONObjectResult() );
+
+		for ( String riding_name : election_obj.keySet() ) 
+		{
+			System.out.println(  election_obj.get(riding_name) + " " +  election_obj.get(riding_name).getValidVotes() );
+		}
+		
+		
+
 		/* 
 		ArrayList<String> coalitionParties = new ArrayList<>();
 		coalitionParties.add("P.L.Q./Q.L.P.");
@@ -112,4 +122,23 @@ public class App
 		 */
 		
 	}
+
+	// Return the winning candidate of a given riding. 
+	private static Candidate getWinner(Riding riding)
+	{
+		Candidate toReturn = null;
+		int highest_vote_total = 0;
+
+		for ( Candidate candidate : riding.getCandidates() )
+		{
+			if (candidate.getVoteTotal() > highest_vote_total)
+			{
+				highest_vote_total = candidate.getVoteTotal();
+				toReturn = candidate;
+			}
+		}
+
+		return toReturn;
+	}
+
 }
