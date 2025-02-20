@@ -9,6 +9,7 @@ function App() {
 
       <div>
         <Hex01 />
+        <Hex01 />
       </div>
     </>
   )
