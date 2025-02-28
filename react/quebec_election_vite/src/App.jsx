@@ -4,14 +4,11 @@ import HexMTL1 from './hex_components/HexMTL1.jsx'
 import FrontPage from './FrontPage.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
-
-      <div>
-        <FrontPage />
-      </div>
+      <HexMTL1 />
     </>
   )
 }

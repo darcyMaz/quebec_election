@@ -1,0 +1,71 @@
+{ 
+    "regions": [
+        { 
+            "region": "Bas-Saint-Laurent",
+            "ridings": ["Matane-Matapédia","Rimouski","Rivière-du-Loup-Témiscouata"]
+        },
+        { 
+            "region": "Saguenay-Lac-Saint-Jean",
+            "ridings": ["Chicoutimi","Dubuc","Jonquière","Lac-Saint-Jean","Roberval"]
+        },
+        { 
+            "region": "Capitale-Nationale",
+            "ridings": ["Charlesbourg","Charlevoix-Côte-de-Beaupré","Chauveau","Jean-Lesage","Jean-Talon","La Peltrie","Louis-Hébert","Montmorency","Portneuf","Taschereau","Vanier-Les Rivières"]
+        },
+        { 
+            "region": "Mauricie",
+            "ridings": ["Champlain","Laviolette-Saint-Maurice","Maskinongé","Trois-Rivières"]
+        },
+        { 
+            "region": "Estrie",
+            "ridings": ["Brome-Missisquoi","Granby","Mégantic","Orford","Richmond","Saint-François","Sherbrooke"]},
+        { 
+            "region": "Montréal",
+            "ridings": ["Acadie","Anjou-Louis-Riel","Bourassa-Sauvé","Camille-Laurin","D'Arcy-McGee","Gouin","Hochelaga-Maisonneuve","Jacques-Cartier","Jeanne-Mance-Viger","LaFontaine","Laurier-Dorion","Marguerite-Bourgeoys","Marquette","Maurice-Richard","Mercier","Mont-Royal-Outremont","Nelligan","Notre-Dame-de-Grâce","Pointe-aux-Trembles","Robert-Baldwin","Rosemont","Saint-Henri-Sainte-Anne","Saint-Laurent","Sainte-Marie-Saint-Jacques","Verdun","Viau","Westmount-Saint-Louis"]
+        },
+        { 
+            "region": "Outaouais",
+            "ridings": ["Chapleau","Gatineau","Hull","Papineau","Pontiac"]
+        },
+        { 
+            "region": "Abitibi-Témiscamingue",
+            "ridings": ["Abitibi-Est","Abitibi-Ouest","Rouyn-Noranda-Témiscamingue"]
+        },
+        { 
+            "region": "Côte-Nord",
+            "ridings": ["Duplessis","René-Lévesque"]
+        },
+        { 
+            "region": "Nord-du-Québec",
+            "ridings": ["Ungava"]
+        },
+        { 
+            "region": "Gaspésie-Îles-de-la-Madeleine",
+            "ridings": ["Bonaventure","Gaspé","Îles-de-la-Madeleine"]
+        },
+        { 
+            "region": "Chaudière-Appalaches",
+            "ridings": ["Beauce-Nord","Beauce-Sud","Bellechasse","Chutes-de-la-Chaudière","Côte-du-Sud","Lévis","Lotbinière-Frontenac"]
+        },
+        { 
+            "region": "Laval",
+            "ridings": ["Chomedey","Fabre","Laval-des-Rapides","Mille-Îles","Sainte-Rose","Vimont"]
+        },
+        { 
+            "region": "Lanaudière",
+            "ridings": ["Berthier","Joliette","L'Assomption","Masson","Repentigny","Rousseau","Terrebonne"]
+        },
+        { 
+            "region": "Laurentides",
+            "ridings": ["Argenteuil","Bertrand","Blainville","Deux-Montagnes","Groulx","Labelle","Les Plaines","Mirabel","Prévost","Saint-Jérôme"]
+        },
+        { 
+            "region": "Montérégie",
+            "ridings": ["Beauharnois","Borduas","Chambly","Châteauguay","Huntingdon","Iberville","La Pinière","La Prairie","Laporte","Marie-Victorin","Montarville","Richelieu","Saint-Hyacinthe","Saint-Jean","Sanguinet","Soulanges","Taillon","Vachon","Vaudreuil","Verchères"]
+        },
+        { 
+            "region": "Centre-du-Québec",
+            "ridings": ["Arthabaska","Drummond-Bois-Francs","Johnson","Nicolet-Bécancour"]
+        }
+    ]
+}

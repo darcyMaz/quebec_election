@@ -1,4 +1,4 @@
-package json_handling;
+package resource_handling;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -15,12 +15,6 @@ import org.json.JSONObject;
  */
 public class Get_JSONObject 
 {
-	/*
-	public static void main(String[] args)
-	{
-		System.out.println( execute("src//main//resources//resultats.json") );
-	}
-	*/
 	
 	public static JSONObject execute(String filename)
 	{
@@ -33,7 +27,7 @@ public class Get_JSONObject
             String jsonStr = "";
             while (sc.hasNextLine()) jsonStr += sc.nextLine();
             sc.close();
-            
+
             return new JSONObject(jsonStr);
         }
         catch (JSONException | FileNotFoundException e) 

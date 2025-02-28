@@ -1,0 +1,220 @@
+quebec_election project regions, given by election Quebec regions
+
+Bas-Saint-Laurent:
+Matane-Matapédia
+Rimouski
+Rivière-du-Loup–Témiscouata
+
+Saguenay-Lac-Saint-Jean:
+Chicoutimi
+Dubuc
+Jonquière
+Lac-Saint-Jean
+Roberval
+
+Capitale-Nationale:
+Charlesbourg
+
+
+
+
+
+
+
+1- Bas-Saint-Laurent
+Matane-Matapédia
+Rimouski
+Rivière-du-Loup–Témiscouata
+
+2 - Saguenay-Lac-Saint-Jean
+Chicoutimi
+Dubuc
+Jonquière
+Lac-Saint-Jean
+Roberval
+3 - Capitale-Nationale
+Charlesbourg
+Charlevoix-Côte-de-Beaupré
+Chauveau
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin3">Jean-Lesage</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin3">Jean-Talon</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin3">La Peltrie</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin3">Louis-Hébert</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin3">Montmorency</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin3">Portneuf</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin3">Taschereau</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin3">Vanier-Les Rivières</a>
+<a class="listRegAdminBTN " id="regAdmin4" href="#">4 - Mauricie</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin4">Champlain</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin4">Laviolette–Saint-Maurice</a><a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin4">Maskinongé</a><a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin4">Trois-Rivières</a>
+<a class="listRegAdminBTN " id="regAdmin5" href="#">5 - Estrie</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin5">Brome-Missisquoi</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin5">Granby</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin5">Mégantic</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin5">Orford</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin5">Richmond</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin5">Saint-François</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin5">Sherbrooke</a>
+<a class="listRegAdminBTN " id="regAdmin6" href="#">6 - Montréal</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin6">Acadie</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin6">Anjou–Louis-Riel</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin6">Bourassa-Sauvé</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin6">Camille-Laurin</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin6">D'Arcy-McGee</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin6">Gouin</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin6">Hochelaga-Maisonneuve</a><a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin6">Jacques-Cartier</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin6">Jeanne-Mance–Viger</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin6">LaFontaine</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin6">Laurier-Dorion</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin6">Marguerite-Bourgeoys</a><a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin6">Marquette</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin6">Maurice-Richard</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin6">Mercier</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin6">Mont-Royal–Outremont</a><a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin6">Nelligan</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin6">Notre-Dame-de-Grâce</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin6">Pointe-aux-Trembles</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin6">Robert-Baldwin</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin6">Rosemont</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin6">Saint-Henri–Sainte-Anne</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin6">Saint-Laurent</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin6">Sainte-Marie–Saint-Jacques</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin6">Verdun</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin6">Viau</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin6">Westmount–Saint-Louis</a><a class="listRegAdminBTN " id="regAdmin7" href="#">7 - Outaouais</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin7">Chapleau</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin7">Gatineau</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin7">Hull</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin7">Papineau</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin7">Pontiac</a>
+<a class="listRegAdminBTN " id="regAdmin8" href="#">8 - Abitibi-Témiscamingue</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin8">Abitibi-Est</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin8">Abitibi-Ouest</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin8">Rouyn-Noranda–Témiscamingue</a>
+<a class="listRegAdminBTN " id="regAdmin9" href="#">9 - Côte-Nord</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin9">Duplessis</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin9">René-Lévesque</a>
+<a class="listRegAdminBTN " id="regAdmin10" href="#">10 - Nord-du-Québec</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin10">Ungava</a>
+<a class="listRegAdminBTN " id="regAdmin11" href="#">11 - Gaspésie-Îles-de-la-Madeleine</a><a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin11">Bonaventure</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin11">Gaspé</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin11">Îles-de-la-Madeleine</a>
+<a class="listRegAdminBTN " id="regAdmin12" href="#">12 - Chaudière-Appalaches</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin12">Beauce-Nord</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin12">Beauce-Sud</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin12">Bellechasse</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin12">Chutes-de-la-Chaudière</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin12">Côte-du-Sud</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin12">Lévis</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin12">Lotbinière-Frontenac</a>
+<a class="listRegAdminBTN " id="regAdmin13" href="#">13 - Laval</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin13">Chomedey</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin13">Fabre</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin13">Laval-des-Rapides</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin13">Mille-Îles</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin13">Sainte-Rose</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin13">Vimont</a>
+<a class="listRegAdminBTN " id="regAdmin14" href="#">14 - Lanaudière</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin14">Berthier</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin14">Joliette</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin14">L'Assomption</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin14">Masson</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin14">Repentigny</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin14">Rousseau</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin14">Terrebonne</a>
+<a class="listRegAdminBTN " id="regAdmin15" href="#">15 - Laurentides</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin15">Argenteuil</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin15">Bertrand</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin15">Blainville</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin15">Deux-Montagnes</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin15">Groulx</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin15">Labelle</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin15">Les Plaines</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin15">Mirabel</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin15">Prévost</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin15">Saint-Jérôme</a>
+<a class="listRegAdminBTN " id="regAdmin16" href="#">16 - Montérégie</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin16">Beauharnois</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin16">Borduas</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin16">Chambly</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin16">Châteauguay</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin16">Huntingdon</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin16">Iberville</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin16">La Pinière</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin16">La Prairie</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin16">Laporte</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin16">Marie-Victorin</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin16">Montarville</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin16">Richelieu</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin16">Saint-Hyacinthe</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin16">Saint-Jean</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin16">Sanguinet</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin16">Soulanges</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin16">Taillon</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin16">Vachon</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin16">Vaudreuil</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin16">Verchères</a>
+<a class="listRegAdminBTN " id="regAdmin17" href="#">17 - Centre-du-Québec</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin17">Arthabaska</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin17">Drummond–Bois-Francs</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin17">Johnson</a>
+<a class="listRegAdminCircBTN" href="#" data-regadmin="regAdmin17">Nicolet-Bécancour</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+['Jean-Lesage', 'Jean-Talon', 'La Peltrie', 'Louis-Hébert', 'Montmorency', 'Portneuf', 'Taschereau', 'Vanier-Les Rivières', '4 - Mauricie', 'Champlain', 'Laviolette–Saint-Maurice', 'Maskinongé', 'Trois-Rivières', '5 - Estrie', 'Brome-Missisquoi', 'Granby', 'Mégantic', 'Orford', 'Richmond', 'Saint-François', 'Sherbrooke', '6 - Montréal', 'Acadie', 'Anjou–Louis-Riel', 'Bourassa-Sauvé', 'Camille-Laurin', "D'Arcy-McGee", 'Gouin', 'Hochelaga-Maisonneuve', 'Jacques-Cartier', 'Jeanne-Mance–Viger', 'LaFontaine', 'Laurier-Dorion', 'Marguerite-Bourgeoys', 'Marquette', 'Maurice-Richard', 'Mercier', 'Mont-Royal–Outremont', 'Nelligan', 'Notre-Dame-de-Grâce', 'Pointe-aux-Trembles', 'Robert-Baldwin', 'Rosemont', 'Saint-Henri–Sainte-Anne', 'Saint-Laurent', 'Sainte-Marie–Saint-Jacques', 'Verdun', 'Viau', 'Westmount–Saint-Louis', '7 - Outaouais', 'Chapleau', 'Gatineau', 'Hull', 'Papineau', 'Pontiac', '8 - Abitibi-Témiscamingue', 'Abitibi-Est', 'Abitibi-Ouest', 'Rouyn-Noranda–Témiscamingue', '9 - Côte-Nord', 'Duplessis', 'René-Lévesque', '10 - Nord-du-Québec', 'Ungava', '11 - Gaspésie-Îles-de-la-Madeleine', 'Bonaventure', 'Gaspé', 'Îles-de-la-Madeleine', '12 - Chaudière-Appalaches', 'Beauce-Nord', 'Beauce-Sud', 'Bellechasse', 'Chutes-de-la-Chaudière', 'Côte-du-Sud', 'Lévis', 'Lotbinière-Frontenac', '13 - Laval', 'Chomedey', 'Fabre', 'Laval-des-Rapides', 'Mille-Îles', 'Sainte-Rose', 'Vimont', '14 - Lanaudière', 'Berthier', 'Joliette', "L'Assomption", 'Masson', 'Repentigny', 'Rousseau', 'Terrebonne', '15 - Laurentides', 'Argenteuil', 'Bertrand', 'Blainville', 'Deux-Montagnes', 'Groulx', 'Labelle', 'Les Plaines', 'Mirabel', 'Prévost', 'Saint-Jérôme', '16 - Montérégie', 'Beauharnois', 'Borduas', 'Chambly', 'Châteauguay', 'Huntingdon', 'Iberville', 'La Pinière', 'La Prairie', 'Laporte', 'Marie-Victorin', 'Montarville', 'Richelieu', 'Saint-Hyacinthe', 'Saint-Jean', 'Sanguinet', 'Soulanges', 'Taillon', 'Vachon', '1 - Bas-Saint-Laurent', 'Matane-Matapédia', 'Rimouski', 'Rivière-du-Loup–Témiscouata', '2 - Saguenay-Lac-Saint-Jean', 'Chicoutimi', 'Dubuc', 'Jonquière', 'Lac-Saint-Jean', 'Roberval', '3 - Capitale-Nationale', 'Charlesbourg', 'Charlevoix–Côte-de-Beaupré', 'Chauveau', 'Jean-Lesage', 'Jean-Talon', 'La Peltrie', 'Louis-Hébert', 'Montmorency', 'Portneuf', 'Taschereau', 'Vanier-Les Rivières', '4 - Mauricie', 'Champlain', 'Laviolette–Saint-Maurice', 'Maskinongé', 'Trois-Rivières', '5 - Estrie', 'Brome-Missisquoi', 'Granby', 'Mégantic', 'Orford', 'Richmond', 'Saint-François', 'Sherbrooke', '6 - Montréal', 'Acadie', 'Anjou–Louis-Riel', 'Bourassa-Sauvé', 'Camille-Laurin', "D'Arcy-McGee", 'Gouin', 'Hochelaga-Maisonneuve', 'Jacques-Cartier', 'Jeanne-Mance–Viger', 'LaFontaine', 'Laurier-Dorion', 'Marguerite-Bourgeoys', 'Marquette', 'Maurice-Richard', 'Mercier', 'Mont-Royal–Outremont', 'Nelligan', 'Notre-Dame-de-Grâce', 'Pointe-aux-Trembles', 'Robert-Baldwin', 'Rosemont', 'Saint-Henri–Sainte-Anne', 'Saint-Laurent', 'Sainte-Marie–Saint-Jacques', 'Verdun', 'Viau', 'Westmount–Saint-Louis', '7 - Outaouais', 'Chapleau', 'Gatineau', 'Hull', 'Papineau', 'Pontiac', '8 - Abitibi-Témiscamingue', 'Abitibi-Est', 'Abitibi-Ouest', 'Rouyn-Noranda–Témiscamingue', '9 - Côte-Nord', 'Duplessis', 'René-Lévesque', '10 - Nord-du-Québec', 'Ungava', '11 - Gaspésie-Îles-de-la-Madeleine', 'Bonaventure', 'Gaspé', 'Îles-de-la-Madeleine', '12 - Chaudière-Appalaches', 'Beauce-Nord', 'Beauce-Sud', 'Bellechasse', 'Chutes-de-la-Chaudière', 'Côte-du-Sud', 'Lévis', 'Lotbinière-Frontenac', '13 - Laval', 'Chomedey', 'Fabre', 'Laval-des-Rapides', 'Mille-Îles', 'Sainte-Rose', 'Vimont', '14 - Lanaudière', 'Berthier', 'Joliette', "L'Assomption", 'Masson', 'Repentigny', 'Rousseau', 'Terrebonne', '15 - Laurentides', 'Argenteuil', 'Bertrand', 'Blainville', 'Deux-Montagnes', 'Groulx', 'Labelle', 'Les Plaines', 'Mirabel', 'Prévost', 'Saint-Jérôme', '16 - Montérégie', 'Beauharnois', 'Borduas', 'Chambly', 'Châteauguay', 'Huntingdon', 'Iberville', 'La Pinière', 'La Prairie', 'Laporte', 'Marie-Victorin', 'Montarville', 'Richelieu', 'Saint-Hyacinthe', 'Saint-Jean', 'Sanguinet', 'Soulanges', 'Taillon', 'Vachon', 'Vaudreuil', 'Verchères', '17 - Centre-du-Québec', 'Arthabaska', 'Drummond–Bois-Francs', 'Johnson', 'Nicolet-Bécancour', 'CircBTN href=# data-regadmin=regAdmin16>Vaudreuil', 'Verchères', '17 - Centre-du-Québec', 'Arthabaska', 'Drummond–Bois-Francs', 'Johnson', 'Nicolet-Bécancour']
+
+
+
+
+{ "regions": [
+]},
+{ "region": "1- Bas-Saint-Laurent",
+"ridings": ["Matane-Matapédia","Rimouski","Rivière-du-Loup–Témiscouata",]},
+{ "region": "2 - Saguenay-Lac-Saint-Jean",
+"ridings": ["Chicoutimi","Dubuc","Jonquière","Lac-Saint-Jean","Roberval",]},
+{ "region": "3 - Capitale-Nationale",
+"ridings": ["Charlesbourg","Charlevoix-Côte-de-Beaupré","Chauveau","Jean-Lesage","Jean-Talon","La Peltrie","Louis-Hébert","Montmorency","Portneuf","Taschereau","Vanier-Les Rivières",]},
+{ "region": "4 - Mauricie",
+"ridings": ["Champlain","Laviolette–Saint-Maurice","Maskinongé","Trois-Rivières",]},
+{ "region": "5 - Estrie",
+"ridings": ["Brome-Missisquoi","Granby","Mégantic","Orford","Richmond","Saint-François","Sherbrooke",]},
+{ "region": "6 - Montréal",
+"ridings": ["Acadie","Anjou–Louis-Riel","Bourassa-Sauvé","Camille-Laurin","D'Arcy-McGee","Gouin","Hochelaga-Maisonneuve","Jacques-Cartier","Jeanne-Mance–Viger","LaFontaine","Laurier-Dorion","Marguerite-Bourgeoys","Marquette","Maurice-Richard","Mercier","Mont-Royal–Outremont","Nelligan","Notre-Dame-de-Grâce","Pointe-aux-Trembles","Robert-Baldwin","Rosemont","Saint-Henri–Sainte-Anne","Saint-Laurent","Sainte-Marie–Saint-Jacques","Verdun","Viau","Westmount–Saint-Louis",]},
+{ "region": "7 - Outaouais",
+"ridings": ["Chapleau","Gatineau","Hull","Papineau","Pontiac",]},
+{ "region": "8 - Abitibi-Témiscamingue",
+"ridings": ["Abitibi-Est","Abitibi-Ouest","Rouyn-Noranda–Témiscamingue",]},
+{ "region": "9 - Côte-Nord",
+"ridings": ["Duplessis","René-Lévesque",]},
+{ "region": "10 - Nord-du-Québec",
+"ridings": ["Ungava",]},
+{ "region": "11 - Gaspésie-Îles-de-la-Madeleine",
+"ridings": ["Bonaventure","Gaspé","Îles-de-la-Madeleine",]},
+{ "region": "12 - Chaudière-Appalaches",
+"ridings": ["Beauce-Nord","Beauce-Sud","Bellechasse","Chutes-de-la-Chaudière","Côte-du-Sud","Lévis","Lotbinière-Frontenac",]},
+{ "region": "13 - Laval",
+"ridings": ["Chomedey","Fabre","Laval-des-Rapides","Mille-Îles","Sainte-Rose","Vimont",]},
+{ "region": "14 - Lanaudière",
+"ridings": ["Berthier","Joliette","L'Assomption","Masson","Repentigny","Rousseau","Terrebonne",]},
+{ "region": "15 - Laurentides",
+"ridings": ["Argenteuil","Bertrand","Blainville","Deux-Montagnes","Groulx","Labelle","Les Plaines","Mirabel","Prévost","Saint-Jérôme",]},
+{ "region": "16 - Montérégie",
+"ridings": ["Beauharnois","Borduas","Chambly","Châteauguay","Huntingdon","Iberville","La Pinière","La Prairie","Laporte","Marie-Victorin","Montarville","Richelieu","Saint-Hyacinthe","Saint-Jean","Sanguinet","Soulanges","Taillon","Vachon","Vaudreuil","Verchères",]},
+{ "region": "17 - Centre-du-Québec",
+"ridings": ["Arthabaska","Drummond–Bois-Francs","Johnson","Nicolet-Bécancour",]},
+}
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal

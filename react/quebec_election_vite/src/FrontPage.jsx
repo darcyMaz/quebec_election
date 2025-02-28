@@ -1,8 +1,10 @@
 import './index.css'
+import Header from './Header.jsx'
 
 const FrontPage = () => {
     return ( 
         <>
+            <Header />
 
             {/* So its gotta have two divs. Ones for the quebec map and one for the info side.  */}
             <div className="quebec-div">  
@@ -29,6 +31,8 @@ const FrontPage = () => {
                 />
 
             </div>
+
+            
             
             
         </>

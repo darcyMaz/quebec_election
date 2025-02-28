@@ -1,16 +1,8 @@
 package app;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-
-import election_objects.*;
-import election_years.Election_2022;
-import interpret_results.FPP_Results;
-import interpret_results.coalition_building.Coalition;
-//import interpret_results.coalition_building.CoalitionBuilding;
-import interpret_results.coalition_building.CoalitionFiltering;
-import interpret_results.coalition_building.CoalitionMain;
+//import election_objects.*;
+//import election_years.Election_2022;
+//import resource_handling.GetRelativePath;
 
 /**
  * App runs this project and returns the result of a given Quebec election as well as the coalitions that could be created by losing parties.
@@ -68,23 +60,12 @@ public class App
 			}	
 		}
 		*/
-		
-		Election_2022 election2022 = new Election_2022( "C:\\Users\\damaz\\OneDrive\\Desktop\\Local Projects\\quebec_election\\pom.xml\\src\\main\\resources\\resultats.json");
-			// "src\\main\\resources\\resultats.json" );
-		Quebec election_obj = election2022.getElectionObject();
-		
 
-		FPP_Results results = new FPP_Results(election_obj);
-		// System.out.println( results.toString() );
-		
-		// System.out.println( results.getJSONObjectResult() );
+		//String regions_data_path = GetRelativePath.execute("resultats.json").toString();
+		//Election_2022 election2022 = new Election_2022( regions_data_path.toString() );
+		//Quebec quebec2022 = election2022.getElectionObject();
 
-		for ( String riding_name : election_obj.keySet() ) 
-		{
-			System.out.println(  election_obj.get(riding_name) + " " +  election_obj.get(riding_name).getValidVotes() );
-		}
-		
-		
+
 
 		/* 
 		ArrayList<String> coalitionParties = new ArrayList<>();
@@ -122,23 +103,4 @@ public class App
 		 */
 		
 	}
-
-	// Return the winning candidate of a given riding. 
-	private static Candidate getWinner(Riding riding)
-	{
-		Candidate toReturn = null;
-		int highest_vote_total = 0;
-
-		for ( Candidate candidate : riding.getCandidates() )
-		{
-			if (candidate.getVoteTotal() > highest_vote_total)
-			{
-				highest_vote_total = candidate.getVoteTotal();
-				toReturn = candidate;
-			}
-		}
-
-		return toReturn;
-	}
-
 }

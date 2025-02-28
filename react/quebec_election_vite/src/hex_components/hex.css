@@ -49,3 +49,7 @@ svg path {
 .hextext {
     font-size: 3px;
 }
+
+h2 {
+  margin-left: 1rem;
+}
