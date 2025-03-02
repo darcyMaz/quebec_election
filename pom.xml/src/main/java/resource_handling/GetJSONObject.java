@@ -13,7 +13,7 @@ import org.json.JSONObject;
  * @author Darcy Mazloum
  *
  */
-public class Get_JSONObject 
+public class GetJSONObject 
 {
 	
 	public static JSONObject execute(String filename)

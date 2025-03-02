@@ -3889,7 +3889,13 @@
                 }
             ],
             "Party_Winner": "Q.S.",
-            "Hex_Coords": [],
+            "Hex_Coords": [
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ],
             "Name": "Gouin"
         },
         "D'Arcy-McGee": {

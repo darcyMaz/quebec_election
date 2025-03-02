@@ -18,12 +18,7 @@ public class CreateRegionsData
      *  Reads the regions.json file to see which ridings are in which regions.
      *  Reads the hex_coords.json file to see the hex coords of each riding.
      */
-    public static void execute()
-    {
-
-    }
-
-    public static void create_regions_data(Quebec election_obj)
+    public static void createRegionsData(Quebec election_obj)
     {
 		JSONObject regions_to_print = new JSONObject();	
 		String regions_path = GetRelativePath.execute("regions.json").toString();
@@ -32,7 +27,8 @@ public class CreateRegionsData
 		// For each riding, get its info + its candidates and add them to an array.
 		// Pack it all together into a JSON file.
 		HashMap<String, JSONArray> region_hash_map = getRegionHashMap(regions_path);
-	
+		JSONObject hex_data = HexCoordHandling.getHexDataJsonObject();
+
 		region_hash_map.forEach(
 			(region,riding_array) -> {
 				JSONObject region_json_obj = new JSONObject();
@@ -50,7 +46,7 @@ public class CreateRegionsData
 					{
 						riding_json_obj = new JSONObject();
 						riding_json_obj.put("Name", riding_str);
-						riding_json_obj.put("Hex_Coords", new JSONArray());
+						riding_json_obj.put("Hex_Coords", hex_data.getJSONArray(riding_str));
 						riding_json_obj.put("Party_Winner", getWinner(riding).getPartyAbreviation());
 
 						JSONArray candidates_json_array = new JSONArray();
@@ -87,7 +83,7 @@ public class CreateRegionsData
 
 	private static HashMap<String, JSONArray> getRegionHashMap(String filename)
 	{
-		JSONObject regions_json = Get_JSONObject.execute(filename);
+		JSONObject regions_json = GetJSONObject.execute(filename);
 		JSONArray all_regions = regions_json.getJSONArray("regions");
 		HashMap< String, JSONArray > region_hmap = new HashMap<>();
 		all_regions.forEach((region) -> 

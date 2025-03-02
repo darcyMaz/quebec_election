@@ -1,9 +1,5 @@
 package app;
 
-//import election_objects.*;
-//import election_years.Election_2022;
-//import resource_handling.GetRelativePath;
-
 /**
  * App runs this project and returns the result of a given Quebec election as well as the coalitions that could be created by losing parties.
  * This information is returned in the form of a single JSONObject which can then be turned into a JSON file.
@@ -61,11 +57,14 @@ public class App
 		}
 		*/
 
-		//String regions_data_path = GetRelativePath.execute("resultats.json").toString();
-		//Election_2022 election2022 = new Election_2022( regions_data_path.toString() );
+		//String results_path = GetRelativePath.execute("resultats.json").toString();
+		//Election_2022 election2022 = new Election_2022( results_path.toString() );
 		//Quebec quebec2022 = election2022.getElectionObject();
 
+		// System.out.println( "Make Hex file: " + HexCoordHandling.makeHexCoordsFile(quebec2022) );
 
+		//System.out.println(HexCoordHandling.addHexData("Gouin", 0,0,0));
+		//System.out.println(HexCoordHandling.addHexData("Gouin", 0,0,1));
 
 		/* 
 		ArrayList<String> coalitionParties = new ArrayList<>();

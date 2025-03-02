@@ -1,7 +1,7 @@
 package election_years;
 
 import election_objects.Quebec;
-import resource_handling.Get_JSONObject;
+import resource_handling.GetJSONObject;
 
 public class Election_2022 extends Election_Year
 {
@@ -9,7 +9,7 @@ public class Election_2022 extends Election_Year
 	
 	public Election_2022( String filename ) 
 	{
-		election_object = new Quebec(  Get_JSONObject.execute(filename)  );
+		election_object = new Quebec(  GetJSONObject.execute(filename)  );
 	}
 	
 	@Override
